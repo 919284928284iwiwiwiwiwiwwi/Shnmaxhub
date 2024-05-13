@@ -20,7 +20,7 @@ local OrionLib = {
 			TextDark = Color3.fromRGB(150, 150, 150)
 		}
 	},
-	SelectedTheme = "DarkTheme",
+	SelectedTheme = ,
 	Folder = nil,
 	SaveCfg = false
 }
@@ -288,7 +288,7 @@ end)
 
 CreateElement("TFrame", function()
 	local TFrame = Create("Frame", {
-		BackgroundTransparency = 1
+		BackgroundTransparency = 0.5
 	})
 	return TFrame
 end)
